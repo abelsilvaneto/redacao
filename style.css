@@ -5,25 +5,27 @@
     box-sizing: border-box;
 }
 
-html{
-    font-size: 16px;
-}
+
 
 body{
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #FFFDDF;
     color: #1a1a1a;
     line-height: 1.5;
     padding: 1rem;
     max-width: 390px;
     margin: 0 auto;
+    border-radius: 12px;
 }
 
 .cartaz{
     width: 100%;
     height: auto;
     animation: fade-in 1s ease-out;
+    animation: scale-up-center 2s cubic-bezier(.39,.575,.565,1.000) both;
+    border-radius: 12px;
 }
+
 nav a{
     display: block;
     font-size: 1.5rem; 
@@ -35,18 +37,20 @@ nav a{
     border-radius: 8px;
     background-color: #0055aa;
     color: white;
-    cursor: pointer;
-    transition: background 0.3s ease;
+
 }
+
 
 .lista-temas{
     display: flex;
     overflow-x: auto;
+    background: linear-gradient(90deg, #FF3D71, #FF6B6B);
     gap: 1rem;
     padding: 1rem;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
 }
+
 
 
 .tema {
@@ -61,6 +65,8 @@ nav a{
     flex-shrink: 0;
   }
 
+
+
 #textoCen{
     
 }
@@ -72,6 +78,6 @@ nav a{
     background-color: #fff;
     padding: 1rem;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
 }
 .cartaz{-webkit-animation:scale-up-center 2s cubic-bezier(.39,.575,.565,1.000) both;animation:scale-up-center 2s cubic-bezier(.39,.575,.565,1.000) both}
