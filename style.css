@@ -19,7 +19,8 @@ body{
 }
 
 .cartaz{
-    width: 100%;
+    width: 390px;
+    height:  844px;
     height: auto;
     animation: fade-in 1s ease-out;
     animation: scale-up-center 2s cubic-bezier(.39,.575,.565,1.000) both;
@@ -35,7 +36,7 @@ nav a{
     text-decoration: none;
     border: none;
     border-radius: 8px;
-    background-color: #0055aa;
+    background-color: #52b69a;
     color: white;
 
 }
