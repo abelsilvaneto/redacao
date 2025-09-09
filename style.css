@@ -5,7 +5,12 @@
     box-sizing: border-box;
 }
 
-
+h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+}
 
 body{
     font-family: Arial, sans-serif;
